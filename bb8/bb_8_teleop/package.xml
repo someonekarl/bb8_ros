@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bb_8_teleop</name>
+  <version>1.0.0</version>
+  <description>Provides teleoperation for BB8 using joysticks or keyboard.</description>
+  
+  <!-- The package contact information -->
+  <maintainer email="karl@inrovo.com">Karl Li</maintainer>
+  <!-- <url type="website">http://wiki.ros.org/</url> -->
+  
+  <!-- 
+   Based on original bb_8_teleop from: 
+   <author email="jose.capriles@theconstructsim.com">Jose Capriles</author>
+  -->
+
+  <!-- The license -->
+  <license>BSD</license>
+
+  <!-- The depend tags are used to specify dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>joy</depend>
+  <depend>kobuki_safety_controller</depend>
+  <depend>yocs_velocity_smoother</depend>
+  <depend>turtlebot_bringup</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export></export>
+
+</package>

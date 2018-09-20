@@ -1,0 +1,6 @@
+View images:
+$ rosrun image_view image_view image:=/bb8/camera1/image_raw
+
+Plot Acc
+$ rqt_plot /bb8/imu/data/angular_velocity /bb8/imu/data/linear_acceleration
+
